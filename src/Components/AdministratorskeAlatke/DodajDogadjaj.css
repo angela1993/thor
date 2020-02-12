@@ -1,0 +1,17 @@
+.AddEventGlavni {
+    height: -webkit-fill-available;
+    display: flex;
+  }
+  .DodajEventFormaBox {
+    display: flex;
+    flex-direction: row;
+  }
+  .divZaFormu {
+    flex-grow: 1;
+  }
+  .kontroleDodajDogadjaj {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  

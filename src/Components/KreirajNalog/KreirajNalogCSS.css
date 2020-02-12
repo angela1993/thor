@@ -1,0 +1,12 @@
+.rounded-circle {
+    max-width: 171px;
+    max-height: 180;
+    margin: 20px;
+  }
+  .NalogSlikaIurl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafae8;
+  }
+  

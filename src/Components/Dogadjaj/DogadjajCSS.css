@@ -1,0 +1,335 @@
+.previewCard {
+    display: flex;
+    margin: 1%;
+    background-color: #fcfbf6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-color: #fcfbf6;
+    border-radius: 5px;
+    margin-bottom: 12vh;
+  }
+  .karticaNaslov {
+    margin-top: 6px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+    background-color: transparent;
+    min-height: 2em;
+    align-content: center;
+    text-align: center;
+  }
+  .eventCard {
+    display: flex;
+    margin: 1%;
+    background-color: #fcfbf6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-color: #fcfbf6;
+    border-radius: 5px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .eventImage {
+    min-height: 441px;
+    background-color: whitesmoke;
+  }
+  .eventCard:hover {
+    -webkit-transform: scale(1.03, 1.03);
+    transform: scale(1.03, 1.03);
+  }
+  .karticaTelo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .karticaDatum {
+    display: flex;
+    flex-direction: column;
+  }
+  .karticaDan {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .karticaMesec {
+    color: rgb(139, 21, 0);
+  }
+  .spacer {
+    width: 5px;
+    background-color: rgb(194, 63, 23);
+  }
+  
+  .karticaVreme {
+    display: flex;
+    flex-direction: column;
+  }
+  .karticaDanTxt {
+    font-size: 1em;
+    text-align: right;
+    opacity: 0.6;
+  }
+  .karticaSat {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  #btnRate-Komentar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .ExtendedGlavni {
+    display: flex;
+    flex-direction: column;
+  }
+  .extendedDogadjaj {
+  }
+  .ExtendedSadrzaj {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1%;
+  }
+  .extendedHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dogadjajTrajanje {
+    border-left: 1px rgba(83, 83, 83, 0.521) solid;
+    padding-left: 2vh;
+    font-size: 1.1em;
+  }
+  .DogadjajNaslov {
+    margin-top: 1%;
+    font-size: 1.5em;
+  }
+  
+  .linija {
+    height: 3px;
+    background-color: rgba(151, 61, 34, 0.795);
+    margin-bottom: 0.8em;
+  }
+  .SadrzajOpis {
+    flex-basis: 67%;
+    padding-left: 4vh;
+    font-size: 1.3em;
+  }
+  
+  .gornjiDeo {
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 441px;
+  }
+  .ExtendedSlika {
+    border-radius: 5px;
+    height: 100%;
+    width: auto;
+  }
+  
+  .sadrzajVreme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .sadrzajOcena {
+    margin-top: 2vh;
+  
+    font-size: 2em;
+    margin-bottom: 6vh;
+    width: 70%;
+    font-weight: lighter;
+    font-variant: small-caps;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .sadrzajDatum,
+  .sadrzajVreme,
+  .sadrzajCena {
+    font-size: 2em;
+    margin-bottom: 1vh;
+    width: 70%;
+    font-weight: lighter;
+    font-variant: small-caps;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .novac {
+    color: green;
+  }
+  
+  .postojecaOcena .fas {
+    color: rgb(240, 240, 0);
+  }
+  .postojecaOcena {
+    padding-right: 2vh;
+    text-align: right;
+  }
+  .crticaOcena {
+    min-width: 1px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 1em;
+  }
+  .peticaaa {
+    font-size: 0.6em !important;
+    align-self: center;
+  }
+  .novaOcena {
+    padding-left: 2vh;
+    text-align: left;
+    align-self: flex-start;
+    font-variant: small-caps;
+  }
+  .kalendar,
+  .sat {
+    color: rgb(0, 0, 0);
+  }
+  
+  .SadrzajBar {
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    border-radius: 5px;
+  }
+  .divRatingComponent {
+    margin: 2%;
+    font-size: 20px;
+  }
+  .kontrole {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3vh;
+  }
+  
+  .modalExtendedDogadjaj .modal-content {
+    /*background-image: url(https://capitoltheatre.ca/wp-content/uploads/2018/03/tile_light_2.jpg);*/
+  }
+  .ostaviKomentar,
+  .ostaviMesto {
+    margin-left: 6vh;
+    background-color: rgb(151, 61, 34);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: white;
+  }
+  .ostaviMesto:hover,
+  .ostaviKomentar:hover {
+    -webkit-transform: scale(1.01, 1.01);
+    transform: scale(1.01, 1.01);
+  }
+  
+  .spiner {
+    margin-left: 3vh;
+    margin-top: 3vh;
+  }
+  /* komentari */
+  .komentarSection {
+    margin-top: 3vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
+  
+  .komentar {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px rgba(83, 83, 83, 0.521) solid;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+  }
+  .nav-tabs * {
+    color: black;
+  }
+  .nav-tabs .nav-link:hover {
+    font-weight: bold;
+    color: black;
+  }
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    font-weight: bold;
+  }
+  .KomentarCard {
+    padding: 1px;
+  }
+  .divKomentarCard {
+    max-height: 300px;
+  }
+  .reviews {
+    font-weight: bold;
+    margin: 10px auto 20px;
+  }
+  .komentar .media-object {
+    max-width: 120px;
+  }
+  .komentar-telo {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .komentar-slika {
+    flex-basis: 100px;
+    max-height: 100px;
+  }
+  .komentar-header {
+    display: flex;
+    padding: 1vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .komentar-datum {
+    border-left: 1px rgba(83, 83, 83, 0.521) solid;
+    padding-left: 2vh;
+  }
+  .komentar-korisnik {
+    font-size: 22px;
+  }
+  .samoZaDugme {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    padding-bottom: 1vh;
+  }
+  .komentar-tekst {
+  }
+  .brnIzbrisi {
+    align-self: flex-end;
+  }
+  @media only screen and (max-width: 700px) {
+    .eventCard {
+      flex-basis: 180px;
+      flex-wrap: nowrap;
+    }
+  }
+  #popover-ocenjivanje {
+    width: 300px;
+  }
+  .divRatingComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.6em;
+  }
+  .OceniButton {
+    border-radius: 60%;
+  }
+  .spiner_zakazivanje {
+    size: 2px;
+  }
+  .Otkazivanje {
+    margin-left: 3vh;
+    margin-bottom: 2vh;
+  }
+  

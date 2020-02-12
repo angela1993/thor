@@ -1,0 +1,358 @@
+body,
+html {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bookman Old Style";
+  overflow-x: hidden;
+  background-image: url(https://capitoltheatre.ca/wp-content/uploads/2018/03/tile_light_2.jpg);
+}
+.Telo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*    REPERTOAR   */
+.daBiMoglaPozadinaLepa {
+  width: 100%;
+  background-image: url(https://capitoltheatre.ca/wp-content/uploads/2018/03/tile_light_2.jpg) !important;
+  /*background-color: #fafae8;*/
+  display: flex;
+
+  justify-content: center;
+}
+.repertoar {
+  width: 83.33333333%;
+  display: flex;
+  flex-direction: column;
+}
+.reperoarNaslovKontejner {
+  margin-top: 1rem;
+
+  padding-bottom: 1vh;
+}
+.reperoarNaslovKontejner button {
+  color: rgb(151, 61, 34);
+}
+.reperoarNaslovKontejner button:hover {
+  color: rgb(151, 61, 34);
+  font-weight: bold;
+}
+.repertoarNaslov {
+  margin-left: 1%;
+  text-align: left;
+}
+.filteriTelo {
+  margin-bottom: 0.5rem;
+}
+.filteriTelo button {
+  max-height: 5vh;
+  align-self: flex-end;
+  margin-right: 1rem;
+}
+.filteriTelo button:hover {
+  background-color: rgb(151, 61, 34);
+}
+.filteriTelo .form-group {
+  margin-bottom: 0rem;
+}
+.divDogadjaji {
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.divDogadjaji::-webkit-scrollbar {
+  display: none;
+}
+.LetterEvent {
+  font-size: 30px;
+}
+.dodajDogadjajKartica {
+  color: #fdfaeb;
+  height: 15vh;
+  width: 15vh;
+  max-width: 15vh;
+  opacity: 0.8;
+  margin: 11.5vh;
+  background-color: #585645;
+  border-radius: 50%;
+  font-size: 3.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.dodajDogadjajKartica i {
+  -webkit-align-self: center;
+  align-self: center;
+  margin-top: 35%;
+}
+.dodajDogadjajKartica:hover {
+  -webkit-transform: scale(1.03, 1.03);
+  transform: scale(1.03, 1.03);
+}
+.osnovniPodaci {
+  background-color: #3f3a32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Slide {
+  width: 100%;
+}
+.glavniNatpis {
+  font-size: 4em;
+  text-align: center;
+}
+.dodatniNatpis {
+  font-style: italic;
+  font-size: 1em;
+}
+
+/*     MAPA     */
+.lokacija {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.mapa {
+  flex-basis: 60%;
+}
+.lokacijaOpis {
+  flex-basis: 40%;
+  background-color: #585645;
+  padding: 5vh;
+  color: aliceblue;
+  text-align: left;
+  line-height: 2em;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: column;
+}
+.dugmeIzmeni {
+  margin-top: 15vh;
+  font-size: 2em;
+  align-self: flex-end;
+}
+.lokacijaNaslov {
+  margin-bottom: 4vh;
+  font-size: 2em;
+}
+strong {
+  font-weight: bold;
+}
+.leaflet-container {
+  margin: 0 auto;
+  z-index: 0 !important;
+}
+
+.marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  &:hover {
+    z-index: 1;
+  }
+}
+
+/*   ABOUT   */
+.about {
+  flex-basis: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 83.333%;
+}
+.about-desno {
+  margin: 5vh;
+  align-self: right;
+  text-align: right;
+}
+.about-levo {
+  margin: 5vh;
+  align-self: left;
+  display: flex;
+  flex-direction: column;
+  font-size: 3em;
+}
+
+.search {
+  font-size: 2em;
+  text-align: right;
+  align-self: center;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.search:hover {
+  /*transform: rotate(0.5deg);
+  transform: skew(5deg);*/
+}
+.naslovna2 {
+  width: 100%;
+  height: 100vh;
+  background-image:url("C:/Users/Andjela/thor/src/slike/naslovna1.jpg") ;
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(1);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.naslovna {
+  
+
+  width: 100%;
+  height: 100vh;
+  background-image: url("C:/Users/Andjela/thor/src/slike/naslovna2.jpg");
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(1);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.naslovna,
+.naslovna2 {
+  transition: all 1.5s ease-in-out 0s;
+}
+.naslovna *,
+.naslovna2 * {
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  text-align: left;
+  margin-left: 100px;
+  font-size: 3.5em;
+  color: white;
+}
+.propagandaGlavni {
+  width: 100%;
+  height: 90vh;
+  background-image: url(https://capitoltheatre.ca/wp-content/uploads/2018/03/b_roll10b.jpg);
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(1);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.propagandaGlavni h1 {
+  color: white;
+  font-size: 3em;
+  transform: translateY(20vh);
+}
+.propagandaUnutrasni {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.propaganda {
+  width: 400px;
+  align-self: center;
+  font-size: 1.25em;
+  align-self: flex-end;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+.propagandaLogin {
+  margin: 3%;
+  color: white;
+}
+.vecUlogovan {
+  min-height: 450px;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: rgba(0, 255, 0, 0.712);
+}
+.vecUlogovan i {
+  font-size: 4em;
+  color: whitesmoke;
+}
+.fusnota {
+  font-size: 0.8em;
+  opacity: 0.7;
+  color: whitesmoke;
+}
+.asdf {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.poznatiGlumci {
+  height: 500px;
+  transform: translateY(-30px);
+  width: 80%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.glumci img {
+  border-radius: 10px;
+}
+.jedanGlumac {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  color: transparent;
+  background-image: none;
+}
+.jedanGlumac h4 {
+  margin-top: 3vh;
+}
+.natpisGlumci {
+  font-size: 2em;
+}
+.modalIzmeniInfoDugme {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.modalIzmeniInfoDugme button {
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+.modal-content {
+  border: 0px solid rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 1500px) {
+  .naslovna h1,
+  .naslovna2 h1 {
+    transform: translateX(2vh);
+  }
+}

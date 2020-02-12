@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+.ikonica{
+  
+    width: 120px;
+}
+.modal-header {
+  font-weight: lighter !important;
+  border-bottom: 0px solid rgb(194, 63, 23) !important;
+  background-image: url(https://capitoltheatre.ca/wp-content/uploads/2018/03/tile_light_2.jpg) !important;
+}
+.modal-title {
+  font-weight: lighter !important;
+  align-self: flex-end;
+}
+.modal-body {
+  font-family: inherit !important;
+}
+.close {
+  color: transparent;
+}
+.close:hover {
+  color: transparent;
+}
+#root {
+  width: 100%;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.ReactStickyHeader_midground {
+  height: 56px;
+}
+.App-header {
+  background-color: #3f3a32;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+form {
+  text-align: left;
+  font-size: 1.15em;
+  font-weight: lighter;
+}
+html {
+  scroll-behavior: smooth;
+}
+.glavniNavbar {
+  transition: all 0.75s ease-in-out 0s;
+  background-color: transparent !important;
+  background-color: #00000081 !important;
+  color: white;
+  font-size: 1.15em;
+}
+.glavniNavbar .nav-link,
+.glavniNavbarScrolled .nav-link {
+  color: whitesmoke !important;
+}
+
+.glavniNavbar .nav-link:hover,
+.glavniNavbarScrolled .nav-link:hover {
+  color: whitesmoke !important;
+  font-weight: bold;
+}
+
+.glavniNavbar:hover {
+  transition: all 0.5s ease 0s;
+  background-color: #000000 !important;
+}
+.glavniNavbarScrolled {
+  transition: all 0.75s ease 0s;
+  background-color: #000000 !important;
+  font-size: 1.3em;
+}
+.navbar-brand {
+  font-size: 2.3em;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+

@@ -1,0 +1,36 @@
+.SalaPreview {
+    padding-top: 2vh;
+    background-color: #fafae8;
+  }
+  .SalaPreview .btnZakazi {
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+    disabled: true;
+  }
+  .SalaPreview .btnZakazi:hover {
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+  }
+  .PreviewTekstSala {
+    margin-top: 5vh;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 1.75em;
+  }
+  .btnSacuvajSalu {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  #dugmeSacuvajSalu {
+    width: 80vh;
+  }
+  @media (min-width: 768px) {
+    .modal-xl {
+      width: 90%;
+      max-width: 1500px;
+    }
+  }
+  

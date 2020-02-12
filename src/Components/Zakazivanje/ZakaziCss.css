@@ -1,0 +1,45 @@
+.divSedista {
+    display: flex;
+    flex-direction: column;
+  }
+  .jednaVrsta {
+    margin-left: 0.6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .btnSediste {
+    margin: 0.1%;
+    font-size: 11px;
+    display: flex;
+    align-content: center;
+    /*overflow-block: inherit;*/
+  }
+  .btnZakazi {
+    margin-left: 3vh;
+  }
+  .InvisibleSpiner {
+    margin-left: 1vh;
+  }
+  
+  .kontroleZakazi {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+  }
+  @media only screen and (max-width: 900px) {
+    .btnSediste {
+      font-size: 6px;
+      width: 10px;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .divSedista {
+      overflow: scroll;
+    }
+    .btnSediste {
+      font-size: 4px;
+      width: 1px;
+    }
+  }
+  

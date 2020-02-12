@@ -1,0 +1,22 @@
+.filteri .form-group {
+    max-width: 70vh;
+    margin-left: 5vh;
+  }
+  .filteri .form-control {
+    margin-top: 1vh;
+  }
+  .tabelaDugme {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 5vh;
+  }
+  .filteri {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .tabelaUnos {
+    display: flex;
+    flex-direction: row;
+  }
+  
